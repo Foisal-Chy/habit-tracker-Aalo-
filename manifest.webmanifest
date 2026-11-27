@@ -1,0 +1,36 @@
+{
+  "id": "./",
+  "name": "Aalo – Daily Companion",
+  "short_name": "Aalo",
+  "description": "তোমার দিনের শান্ত সঙ্গী: নামাজ, পানি, ঘুম, পড়াশোনা, ব্যায়াম আর মনের কথা এক জায়গায়। ইন্টারনেট ছাড়াই চলে, তথ্য থাকে শুধু তোমার ফোনে।",
+  "lang": "bn",
+  "dir": "ltr",
+  "start_url": "./?src=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#f4f1ea",
+  "theme_color": "#12805a",
+  "categories": ["lifestyle", "productivity", "health"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "ফোকাস শুরু করো", "short_name": "ফোকাস", "url": "./?v=focus", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "ব্যায়াম", "short_name": "ব্যায়াম", "url": "./?v=ex", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "টুলস · কিবলা", "short_name": "Tools", "url": "./?v=tools", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "দ্বীন · Deen", "short_name": "Deen", "url": "./?v=deen", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "ওষুধ রিমাইন্ডার", "short_name": "Reminder", "url": "./?v=rem", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "খাতা", "short_name": "খাতা", "url": "./?v=me", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ],
+  "screenshots": [
+    { "src": "shots/s1.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "আজকের দিন" },
+    { "src": "shots/s2.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "ব্যায়াম গাইড" },
+    { "src": "shots/s3.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "ফোকাস টাইমার" },
+    { "src": "shots/w1.png", "sizes": "960x600", "type": "image/png", "form_factor": "wide", "label": "Aalo" }
+  ]
+}
